@@ -4,8 +4,8 @@
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: Georgia, serif;
+    background-color: #badbf2;
     color: #333;
 }
 
@@ -35,7 +35,7 @@ h1 {
 .introduction {
     max-width: 600px;
     line-height: 1.6;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .tagline {
@@ -98,10 +98,10 @@ h1 {
 
 .skill-card {
     padding: 25px;
-    border: 1px solid #ddd;
+    border: 1px solid #efe1e1;
     border-radius: 10px;
     text-align: center;
-    background-color: white;
+    background-color: #efe1e1;
 }
 
 .skill-card h3 {
