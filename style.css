@@ -193,3 +193,49 @@ padding-left: 25px;
 .project-link:hover {
     opacity: 0.8;
 }
+/* Education and Experience Section */
+
+.experience {
+    padding: 80px 20px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.experience h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.experience-intro {
+    text-align: center;
+    line-height: 1.7;
+    margin-bottom: 40px;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.experience table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #efe1e1;
+}
+
+.experience th,
+.experience td {
+    border: 1px solid #333;
+    padding: 15px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.experience th {
+    background-color: #333;
+    color: white;
+}
+
+.experience tbody tr:hover {
+    background-color: #f5eeee;
+}
