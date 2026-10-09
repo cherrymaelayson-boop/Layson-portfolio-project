@@ -4,6 +4,8 @@
 
 body {
     margin: 0;
+    width: 100%;
+    max-width: 100%;
     font-family: Georgia, serif;
     background-color: #badbf2;
     color: #333;
@@ -356,4 +358,178 @@ html {
 
 .send-button:hover {
     background-color: #555;
+}
+/* Responsive Design */
+
+/* Tablet Screens */
+@media screen and (max-width: 1024px) {
+
+    .about-container {
+        gap: 40px;
+    }
+
+    .skills-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+    }
+
+    .projects-container {
+        gap: 25px;
+    }
+
+    .project-card {
+        padding: 18px;
+    }
+
+    .navbar {
+        padding: 15px 20px;
+    }
+
+    .nav-links {
+        gap: 10px;
+    }
+
+    .nav-links a {
+        padding: 8px 6px;
+        font-size: 14px;
+    }
+
+}
+
+/* Mobile Screens */
+@media screen and (max-width: 768px) {
+
+    .intro {
+        min-height: auto;
+        padding: 60px 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .introduction {
+        font-size: 16px;
+    }
+
+    .about,
+    .skills,
+    .projects,
+    .experience,
+    .contact {
+        padding: 50px 20px;
+    }
+
+    .about-container {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .skills-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .skill-card {
+        padding: 18px;
+        min-height: auto;
+    }
+
+    .projects-container {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .project-card {
+        width: 100%;
+    }
+
+    .project-card img {
+        height: 220px;
+    }
+
+    .contact-form {
+        padding: 20px;
+    }
+
+    .experience table {
+        min-width: 600px;
+    }
+
+}
+
+/* Small Mobile Screens */
+@media screen and (max-width: 480px) {
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .profile-photo {
+        width: 140px;
+        height: 140px;
+    }
+
+    .skills-container {
+        grid-template-columns: 1fr;
+    }
+
+    .skill-card {
+        width: 100%;
+    }
+
+    .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    padding: 12px 8px;
+    box-sizing: border-box;
+}
+
+.nav-logo {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-links li {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    display: block;
+    font-size: 12px;
+    padding: 8px 6px;
+    white-space: nowrap;
+}
+
+    .experience th,
+    .experience td {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        font-size: 16px;
+    }
+
 }
